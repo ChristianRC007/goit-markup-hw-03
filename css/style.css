@@ -11,7 +11,7 @@
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --main-white-color: #ffffff;
-  --footer-bg-color: #2f303a;
+  --secondary-bg-color: #2f303a;
   --standart-black: #000000;
 }
 
@@ -39,13 +39,16 @@ h6 {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
+/* Header */
 .header-nav {
   display: flex;
   align-items: center;
@@ -70,6 +73,7 @@ h6 {
   color: var(--main-text-color);
   font-weight: 500;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .nav-list-item:not(:last-child) {
@@ -100,6 +104,7 @@ h6 {
   color: var(--accent-color);
 }
 
+/* Logo */
 .main-logo,
 .main-logo:focus {
   font-family: Raleway, sans-serif;
@@ -123,14 +128,42 @@ h6 {
   color: var(--main-white-color);
 }
 
+/* Hero */
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  color: var(--main-white-color);
+  background-color: var(--secondary-bg-color);
+}
+
 .main-heading {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  padding: 10px 32px;
+
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
+
+  border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* Features */
 .features-heading {
   font-weight: 700;
   font-size: 14px;
@@ -175,7 +208,7 @@ h6 {
 
 /* Костыль для видимости цвета текста в футере */
 footer {
-  background-color: var(--footer-bg-color);
+  background-color: var(--secondary-bg-color);
   padding: 5px;
 }
 /* End костыль */
