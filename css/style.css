@@ -50,6 +50,10 @@ h6 {
 }
 
 /* Header */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -303,6 +307,9 @@ h6 {
 }
 
 /* Визуал текста для Портфолио */
+.portfolio {
+  padding: 94px 0;
+}
 
 .logic-title {
   font-size: 0px;
@@ -314,7 +321,6 @@ h6 {
   display: flex;
   justify-content: center;
 
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -349,7 +355,6 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .projects-item {
