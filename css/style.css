@@ -39,7 +39,7 @@ h6 {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .list {
@@ -164,12 +164,26 @@ h6 {
 }
 
 /* Features */
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .features-heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .features-text {
@@ -177,8 +191,10 @@ h6 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 
+/* Work */
 .work-heading {
   font-weight: 700;
   font-size: 36px;
