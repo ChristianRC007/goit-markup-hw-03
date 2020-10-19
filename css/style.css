@@ -195,13 +195,30 @@ h6 {
 }
 
 /* Work */
+.work {
+  padding-bottom: 94px;
+}
+
 .work-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+
+  text-align: center;
 }
 
+.work-list {
+  display: flex;
+}
+
+.work-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* Team */
 .team-heading {
   font-weight: 700;
   font-size: 36px;
