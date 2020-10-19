@@ -268,30 +268,37 @@ h6 {
   margin-bottom: 30px;
 }
 
-/* Костыль для видимости цвета текста в футере */
-footer {
+/* Footer */
+.footer {
   background-color: var(--secondary-bg-color);
-  padding: 5px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-/* End костыль */
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
 
 .adress {
   color: var(--main-white-color);
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   font-weight: 400;
   letter-spacing: 0.03em;
-  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.adress-link {
+  margin-top: 0;
+  margin-bottom: 9px;
 }
 
 .contact {
+  font-weight: 500;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-}
-
-.contact:hover,
-.contact:focus {
-  color: var(--accent-color);
 }
 
 /* Визуал текста для Портфолио */
