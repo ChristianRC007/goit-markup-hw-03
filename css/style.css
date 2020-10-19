@@ -24,10 +24,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .list {
   list-style: none;
 }
@@ -48,6 +44,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -61,6 +58,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .info-link:hover,
@@ -75,6 +73,7 @@ body {
   line-height: 1.19;
   font-weight: 700;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .first-part {
